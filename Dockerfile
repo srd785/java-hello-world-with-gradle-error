@@ -1,5 +1,5 @@
 FROM openjdk:11
-COPY build/libs/SpringBootRestApp-0.0.1-SNAPSHOT.jar /
+COPY build/libs/ jb-hello-world-0.1.0.jar /
 WORKDIR /
-CMD ["java", "-jar", "jb-hello-world-0.1.0.jar
-"]
+CMD ["java", "-jar", "jb-hello-world-0.1.0.jar"]
+
